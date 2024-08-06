@@ -1,0 +1,29 @@
+[package]
+name = "iced_fonts"
+description = "Include fonts via feature flags in your Iced project!"
+version.workspace = true 
+edition.workspace = true
+license.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[features]
+bootstrap = []
+nerd = []
+full = ["bootstrap", "nerd"]
+
+[dependencies]
+iced_core.workspace = true
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+keywords = ["gui", "iced"]
+categories = ["gui"]
+
+[workspace.dependencies]
+iced_core = "0.13.0-dev"
+
+[patch.crates-io]
+iced_core = { git = "https://github.com/iced-rs/iced.git" }
