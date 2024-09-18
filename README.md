@@ -8,14 +8,14 @@ Include fonts via feature flags in your Iced project!
 Include `iced_fonts` as a dependency in your `Cargo.toml`:
 ```toml
 [dependencies]
-iced_fonts = { git = "https://github.com/Redhawk18/iced_fonts", features = [...] }
+iced_fonts = { version = "0.1.0", features = [...] }
 ```
 
 ## Versioning
 
 | `iced` version | `iced_fonts` version |
 | -------------- | ---------------------|
-| 0.13.0-dev     | master               |
+| 0.13.0         | 0.1.0                |
 
 ## Fonts
 Fonts can all be enabled with feature flags. All the fonts can be enabled with the `full` feature flag. 
