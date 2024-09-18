@@ -23,7 +23,7 @@ keywords = ["gui", "iced"]
 categories = ["gui"]
 
 [workspace.dependencies]
-iced_core = "0.13.0-dev"
+iced_core = "0.13"
 
 [patch.crates-io]
-iced_core = { git = "https://github.com/iced-rs/iced.git" }
+# iced_core = { git = "https://github.com/iced-rs/iced.git" }

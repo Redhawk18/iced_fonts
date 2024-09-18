@@ -15,7 +15,7 @@ iced_fonts = { git = "https://github.com/Redhawk18/iced_fonts", features = [...]
 
 | `iced` version | `iced_fonts` version |
 | -------------- | ---------------------|
-| 0.13.0-dev     | master               |
+| 0.13.0         | 0.1.0                |
 
 ## Fonts
 Fonts can all be enabled with feature flags. All the fonts can be enabled with the `full` feature flag. 
