@@ -15,7 +15,7 @@ iced_fonts = { version = "0.1.0", features = [...] }
 
 | `iced` version | `iced_fonts` version |
 | -------------- | ---------------------|
-| 0.13.0         | 0.1.0                |
+| 0.13.x         | 0.1.0, 0.1.1         |
 
 ## Fonts
 Fonts can all be enabled with feature flags. All the fonts can be enabled with the `full` feature flag. 
@@ -27,3 +27,5 @@ The Following are a link to the source followed by their feature flag name.
 
 * [Nerd Fonts (Symbols Only)](https://www.nerdfonts.com/) `nerd`
 
+# Contributing
+If you would like to request a new font, please open an issue with the font's name and where to download the ttf font from. If you would like a faster merge run the [mamba-bronze](https://github.com/Redhawk18/mamba-bronze) script yourself and pr the result.
