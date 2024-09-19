@@ -1,7 +1,7 @@
 [package]
 name = "iced_fonts"
 description = "Include fonts via feature flags in your Iced project!"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 homepage = "https://iced.rs"
