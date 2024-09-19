@@ -1,13 +1,20 @@
 [package]
 name = "iced_fonts"
 description = "Include fonts via feature flags in your Iced project!"
-version.workspace = true 
-edition.workspace = true
-license.workspace = true
-keywords.workspace = true
-categories.workspace = true
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+homepage = "https://iced.rs"
+repository = "https://github.com/Redhawk18/iced_fonts"
+keywords = ["gui", "iced", "fonts"]
+categories = ["gui"]
+rust-version = "1.80"
+readme = "README.md"
+authors = [ "Redhawk18" ]
 
 [features]
+default = ["required"]
+required = []
 bootstrap = []
 nerd = []
 full = ["bootstrap", "nerd"]
@@ -15,15 +22,12 @@ full = ["bootstrap", "nerd"]
 [dependencies]
 iced_core.workspace = true
 
-[workspace.package]
-version = "0.1.0"
-edition = "2021"
-license = "MIT"
-keywords = ["gui", "iced"]
-categories = ["gui"]
-
 [workspace.dependencies]
 iced_core = "0.13"
 
 [patch.crates-io]
 # iced_core = { git = "https://github.com/iced-rs/iced.git" }
+
+[package.metadata.docs.rs]
+features = ["required", "full"]
+rustdoc-args = ["--document-private-items"]
