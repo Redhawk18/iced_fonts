@@ -1,7 +1,13 @@
 use iced_core::Font;
 
+pub mod required;
+
+pub const REQUIRED_FONT_BYTES: &[u8] = include_bytes!("../fonts/required-icons.ttf");
+pub const REQUIRED_FONT: Font = Font::with_name("required-icons");
+
 #[cfg(feature = "bootstrap")]
 pub mod bootstrap;
+
 #[cfg(feature = "bootstrap")]
 pub use bootstrap::Bootstrap;
 
